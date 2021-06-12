@@ -1,0 +1,1109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!-- saved from url=(0060)http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><link id="dark-mode-custom-link" rel="stylesheet" type="text/css"/><link id="dark-mode-general-link" rel="stylesheet" type="text/css"/><style id="dark-mode-custom-style" lang="en" type="text/css"></style><style id="dark-mode-native-style" lang="en" type="text/css"></style><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title></title>
+<!-- Framework CSS -->
+<link href="./Default_files/reset.css" media="screen, projection" rel="stylesheet" type="text/css"/>
+<link href="./Default_files/typography.css" media="screen, projection" rel="stylesheet" type="text/css"/>
+<link href="./Default_files/forms.css" media="screen, projection" rel="stylesheet" type="text/css"/>
+<link href="./Default_files/screen.css" media="screen, projection" rel="stylesheet" type="text/css"/>
+<!--<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen, projection">-->
+<link href="./Default_files/print.css" media="print" rel="stylesheet" type="text/css"/>
+<!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+<!-- Accordion Menu -->
+<link href="./Default_files/accordion.css" media="screen, projection" rel="stylesheet" type="text/css"/>
+<script src="./Default_files/jquery-1.4.2.min.js" type="text/javascript"></script>
+<!--[if lt IE 8]>
+<script type="text/javascript">
+  $.noConflict();
+  jQuery(document).ready(function($) {
+    // Code that uses jQuery's $ can follow here.
+  });
+  // Code that uses other library's $ can follow here.
+</script>
+<![endif]-->
+<script src="./Default_files/ddaccordion.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+
+ddaccordion.init({ //top level headers initialization
+	headerclass: "expandable", //Shared CSS class name of headers group that are expandable
+	contentclass: "categoryitems", //Shared CSS class name of contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [], //index of content(s) open by default [index1, index2, etc]. [] denotes no content
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: true, //persist state of opened contents within browser session?
+	toggleclass: ["", "openheader"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["prefix", "", ""], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(headers, expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+
+ddaccordion.init({ //2nd level headers initialization
+	headerclass: "subexpandable", //Shared CSS class name of sub headers group that are expandable
+	contentclass: "subcategoryitems", //Shared CSS class name of sub contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click" or "mouseover
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [], //index of content(s) open by default [index1, index2, etc]. [] denotes no content
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: true, //persist state of opened contents within browser session?
+	toggleclass: ["opensubheader", "closedsubheader"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["none", "", ""], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(headers, expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+
+
+    </script><style type="text/css">
+.categoryitems{display: none}
+a.hiddenajaxlink{display: none}
+</style><style type="text/css">
+.subcategoryitems{display: none}
+a.hiddenajaxlink{display: none}
+</style>
+<!-- End Accordion Menu -->
+<!-- topnav - 2 Level NAV MENU -->
+<link href="./Default_files/jquerycssmenu.css" rel="stylesheet" type="text/css"/>
+<!--[if lte IE 7]>
+<style type="text/css">
+html .jquerycssmenu{height: 1%;} /*Holly Hack for IE7 and below*/
+</style>
+<![endif]-->
+<script src="./Default_files/jquery.min-1.2.6.js" type="text/javascript"></script>
+<script src="./Default_files/jquerycssmenu.js" type="text/javascript"></script>
+<!-- END topnav - 2 Level Nav Menu -->
+<!-- TAB-->
+<!--<script src="js/jquery-1.1.3.1.pack.js" type="text/javascript"></script>-->
+<!--<script src="js/jquery.history_remote.pack.js" type="text/javascript"></script>-->
+<script src="./Default_files/jquery.tabs.pack.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function() {
+
+//$('#div-1').tabs({ fxFade: true, fxSpeed: 'fast' });
+//$('#div-2').tabs({ fxFade: true, fxSpeed: 'fast' });
+    $('#panel_product').tabs({ fxFade: true, fxSpeed: 'fast' });
+
+    $('#panel_rider').tabs({ fxFade: true, fxSpeed: 'fast' });
+
+
+
+
+
+
+});
+
+
+
+
+    </script>
+<script type="text/javascript">
+
+$(function() {
+
+    $('#A51').click(function() {
+      $('#D51').show();
+      $('#D52').hide();
+      $('#D53').hide();
+      return false;
+    });
+
+    $('#A52').click(function() {
+      $('#D51').hide();
+      $('#D52').show();  
+      $('#D53').hide();
+      return false;
+    });
+
+    $('#A53').click(function() {
+      $('#D51').hide();
+      $('#D52').hide();  
+      $('#D53').show();
+      return false;
+    });
+
+});
+
+    </script>
+<link href="./Default_files/tab.css" media="print, projection, screen" rel="stylesheet" type="text/css"/>
+<!--Content Slider -->
+<link href="./Default_files/contentslider.css" rel="stylesheet" type="text/css"/>
+<script src="./Default_files/contentslider.js" type="text/javascript"></script>
+<!-- End Content Slider-->
+<!--[if IE 7]>
+        <link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen, projection">
+<![endif]-->
+</head>
+<body data-gr-ext-installed="" data-new-gr-c-s-check-loaded="14.1014.0">
+<!--  oncontextmenu="return false;"-->
+<form action="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11" id="ctl00" method="post" name="ctl00">
+<div>
+<input id="__EVENTTARGET" name="__EVENTTARGET" type="hidden" value=""/>
+<input id="__EVENTARGUMENT" name="__EVENTARGUMENT" type="hidden" value=""/>
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="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QmFzaWMgUGxhbmQCAg9kFgICAQ8PFgIfAgUDNTc2ZBYCZg8VAQVSaWRlcmQCAw9kFgICAQ8PFgIfAgUDNTcwZBYCZg8VAQ5TcGVjaWFsIE9mZmVyc2QCBA9kFgICAQ8PFgIfAgUDNTcxZBYCZg8VAQpTYWxlcyBBaWRzZAIFD2QWAgIBDw8WAh8CBQM1NzNkFgJmDxUBE1ByZXNlbnRhdGlvbiBTbGlkZXNkAgYPZBYCAgEPDxYCHwIFAzU3NGQWAmYPFQEHTm90aWNlc2QCBw8PFgIfAQURQmx1ZSAtIEJhc2ljIFBsYW5kZAIJDw8WAh4HVmlzaWJsZWdkZAILDw8WAh8DaGRkGCMFEGd2X2Z1bmRmYWN0c2hlZXQPZ2QFBWd2X2dpD2dkBQ5ndl9mdW5kY2xvc3VyZQ9nZAUNZ3ZfZnVuZHVwZGF0ZQ9nZAUMZ3ZfcHJvZHVjdF83DzwrAAoBCAIBZAUKZ3ZfcmlkZXJfMg88KwAKAQgCAWQFFWd2X3ByZXNlbnRhdGlvbnNsaWRlcw88KwAKAQgCAWQFCmd2X3JpZGVyXzUPPCsACgEIAgFkBQxndl9naV9vdGhlcnMPZ2QFDGd2X3Byb2R1Y3RfMg88KwAKAQgCAWQFCmd2X25vdGljZXMPPCsACgEIAgFkBQxndl9wcm9kdWN0XzEPPCsACgEIAgFkBQxndl9wcm9kdWN0XzQPPCsACgEIAgFkBQtndl9pbnZlc3Rvcg9nZAUMZ3ZfcHJvZHVjdF82DzwrAAoBCAIBZAUKZ3ZfcmlkZXJfNA88KwAKAQgCAWQFCmd2X3JpZGVyXzMPPCsACgEIAgFkBQ1ndl9wcm9kdWN0XzExDzwrAAoBCAIBZAUNZ3ZfcHJvZHVjdF8xMA88KwAKAQgCAWQFFGd2X2Z1bmRmYWN0cHJvcGVjdHVzD2dkBRBndl9zcGVjaWFsb2ZmZXJzDzwrAAoBCAIBZAUMZ3ZfcHJvZHVjdF8zDzwrAAoBCAIBZAUKZ3ZfbmV3ZnVuZA9nZAUMZ3ZfY29tcGFueWJnD2dkBQlndl9vdGhlcnMPZ2QFDGd2X3Byb2R1Y3RfNQ88KwAKAQgCAWQFD2d2X2Z1bmRidWxsZXRpbg9nZAUMZ3ZfcHJvZHVjdF84DzwrAAoBCAIBZAUOZ3ZfbXBmX3Byb2R1Y3QPZ2QFCmd2X3JpZGVyXzEPPCsACgEIAgFkBQxndl9zYWxlc2FpZHMPPCsACgEIAgFkBQxndl9mdW5kcHJpY2UPZ2QFEmd2X2dpX3ByZXNlbnRhdGlvbg9nZAUSZ3ZfZnVuZHBlcmZvcm1hbmNlD2dkBQxndl9wcm9kdWN0XzkPPCsACgEIAgFkhXGDd7U6aLJzU3HyufrUxoRqxak="/>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['ctl00'];
+if (!theForm) {
+    theForm = document.ctl00;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+<div>
+<input id="__EVENTVALIDATION" name="__EVENTVALIDATION" type="hidden" value="/wEWsAEC97eO3QYCzOnYyA8CqdL+1wMChor31w4Ch6bI0w8CvKev/QsCvc3gyAMCmoXZyA4CsajxxAsCmNfk3gMCx/PUjQ8CxpfRhg0C/ZCNswwC/L7pewKr29mqDALa2rexAwKhuee+AwKa04jmBgLrm6+ZBgK8/77qCgK9m5DmCwKG2Kb1BgK/mdCtDwK/zPHKDQLGkvfdAQLh+KfPAQKY0oq2CAKr0Y/aDQLiqvLABAKYveeQCwLmxN3VBALf9PfyCQKc4pX7AQKdualaAoLd2LgHAsv5lYIKAv37/4wHAtzNyMEBAov0mMADArqr8owEAsmu6tcDAvjlw6QEAqeMlKMGApbM+GwCyoClpw0Cr7+9owkCjJS9LgKp9ZTdDwKOj+TrDwLzzfznCwL7ipHpDALAk6DwBAL75b31BAKK9ufKBwKl16iUBAKEot+0BwLvr5AfArTV4vMNArXo7doNAtKfjPQNAqPosqcNAojHpOkBAtmPy5wBAraHkZELApmU++8JArSPj7wFAuO1v+EBApLtmK4CApnT94YPAsiK0dMPAvewodIBAszp1OgPApmTs64CAvbKq64NAvfm/KkOAqzo49MKAq2OlZ8CAorGjZ8NArGo7eQLAoiYmbUCAre0ieQNArbYhd0LAu3RwYkLAuz/ndIPApucjoELAtras9EDApH6m5UCAoqUvbwFAtvc4+8EAqzA88AJAq3cxLwKAvaY28sFAr+ZzM0PAq+NpqEMArbTqzQC0bncJQKIk7+MBwKbksSwDALS66aXAwKYveOwCwLWhZKsAwLPtazJCAKMo8pRAo363bAPAvKdjY8GAru6ytgIAv37+6wHAsyO/RcC+7TNlgICquym4wICue+ergIC6Kb4+gICl83I+QQClsz0jAECusHZ/QsCn4Dy+QcC/NTxhA8CmbbJsw4C/s+Ywg4C446xvgoC+4qNiQ0CsNTUxgMC66byywMC+racoQYClZjd6gIC9OKTiwYC3/DE9Q4CtNXekw4CpamisQwCwuDAygwCk6nn/QsC+IfZPwLJ0P/yDwKmyMXnCQKZlPePCgKk0MOSBALT9vM3AoKuzYQBAomUrN0NArjLhaoOAufx1SgCz+nQkQEC/tbFvgIC246+vg0C3KqPug4Ckaz24woCktKnrwIC74mgrw0CtKjpjQ0C7durxQICnPib9A0Cm5yY7QsC0pXUmQsC0cOw4g8CgOCgkQsC3dqv+gQC9r2upQIC79fPzAUCwKD2/wQCkYSG0QkCkqDXzAoC29zt2wUCwpnIdgKU0bixDAKbl75EArb97jUC7dbRnAcCgNbWwAwCt6+5pwMCm73f2QwCu8mkvAMCtPm+2QgC8ebcYQLyvfDADwLX4Z+fBgKg/tzoCHHvMV3wGtvAP7H9VPzASEoTm9IY"/>
+</div>
+<div class="container">
+<!--
+    	<div id="header">
+        	<div id="logo" class="left"><a href="index.html"><img src="images/img_convoy_logo.gif" alt="Convoy 康宏"></a></div>
+        	
+        </div>
+        -->
+<!-- Header -->
+<div id="nav">
+<!-- topnav - 2 Level Nav Menu -->
+<div class="jquerycssmenu" id="topnav">
+<ul>
+<li 1="">
+<a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#" style="padding-right: 25px;">
+                                        Product and Provider
+                                    <img class="hide downarrowclass" src="./Default_files/space.gif" style="border:0;"/></a>
+<ul style="top: 34px; display: none; visibility: visible;">
+<li><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11">
+                                                Product and Provider Information (ILAS + INS)
+                                            </a></li>
+</ul>
+</li>
+<li 1="">
+<a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#" style="padding-right: 25px;">
+                                        Fund
+                                    <img class="hide downarrowclass" src="./Default_files/space.gif" style="border:0;"/></a>
+<ul style="top: 34px; display: none; visibility: visible;">
+<li><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=13">
+                                                Fund Information
+                                            </a></li>
+</ul>
+</li>
+<!--
+<li id="nosubmenu"><a href="index.html">Home</a></li>
+<li><a href="financial_planning.html" class="current">Provider</a>
+  <ul>
+      <li><a href="#">Product and Provider Information (ILAS + INS)</a></li>
+      <li><a href="#">Product and Provider Information (MPF)</a></li>
+      <li><a href="#">Product searcher</a></li>
+      <li><a href="#">Product Comparison</a></li>
+  </ul>
+</li>
+<li id="Li1"><a href="insurance.html">Product</a></li>
+<li id="Li2"><a href="funds.html">Fund</a>
+    <ul>
+      <li><a href="financial_planning_retirement.html">Fund Information</a></li>
+      <li><a href="#">Fund Fact Sheet and Prospectus</a></li>
+    </ul>
+</li>
+
+<li id="Li3"><a href="stocks.html" >Investor Protection</a></li>
+<li id="Li4"><a href="stocks.html" >Mortage Referral</a></li>
+<li id="Li5"><a href="investment_management.html">Other resources</a></li>
+<li id="Li6"><a href="">BV Search Engine</a></li>
+-->
+</ul>
+</div>
+<!-- END topnav - 2 Level Nav Menu -->
+</div>
+<div class="page_title3">
+<span id="lbl_menuName">Product and Provider Information (ILAS + INS)</span></div>
+<div id="content">
+<div id="left_column">
+<div id="left_nav">
+<!-- Accordian Menu -->
+<!-- class name for h3:
+menuheader - make the header with arrow style ( DON'T REMOVE)
+expandable - for menu item with subitem(s) only 
+openheader - to make the menuheader active ( for those menuheader link WITHOUT subitem(s) ONLY )
+to preopen a menuheader with subitem(s), pls go this html head to change the value in "defaultexpanded:[]", <br>
+eg. "defaultexpanded:[0]" , start from 0 < which is the first item
+-->
+<div class="arrowlistmenu">
+<!--<a href="#"><h3 class="menuheader expandable">AIA</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl00$btnMenu3','')" id="repeater3_ctl00_btnMenu3"><h3 class="menuheader expandable" headerindex="0h"><span class="accordprefix"></span>AIA<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="0c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl00$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl00_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl00$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl00_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl00$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl00_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl00$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl00_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl00$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl00_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl00$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl00_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">AXA</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl01$btnMenu3','')" id="repeater3_ctl01_btnMenu3"><h3 class="menuheader expandable" headerindex="1h"><span class="accordprefix"></span>AXA<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="1c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl01$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl01_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl01$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl01_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl01$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl01_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl01$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl01_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl01$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl01_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl01$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl01_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">Blue</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl02$btnMenu3','')" id="repeater3_ctl02_btnMenu3"><h3 class="menuheader expandable openheader" headerindex="2h"><span class="accordprefix"></span>Blue<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="2c" style="display: block;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl02$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl02_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl02$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl02_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl02$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl02_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl02$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl02_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl02$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl02_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl02$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl02_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">BOC Life</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl03$btnMenu3','')" id="repeater3_ctl03_btnMenu3"><h3 class="menuheader expandable" headerindex="3h"><span class="accordprefix"></span>BOC Life<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="3c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl03$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl03_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl03$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl03_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl03$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl03_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl03$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl03_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl03$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl03_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl03$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl03_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">China Life</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl04$btnMenu3','')" id="repeater3_ctl04_btnMenu3"><h3 class="menuheader expandable" headerindex="4h"><span class="accordprefix"></span>China Life<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="4c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl04$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl04_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl04$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl04_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl04$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl04_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl04$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl04_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl04$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl04_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl04$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl04_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">CHUBB</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl05$btnMenu3','')" id="repeater3_ctl05_btnMenu3"><h3 class="menuheader expandable" headerindex="5h"><span class="accordprefix"></span>CHUBB<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="5c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl05$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl05_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl05$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl05_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl05$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl05_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl05$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl05_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl05$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl05_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl05$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl05_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">Cigna</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl06$btnMenu3','')" id="repeater3_ctl06_btnMenu3"><h3 class="menuheader expandable" headerindex="6h"><span class="accordprefix"></span>Cigna<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="6c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl06$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl06_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl06$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl06_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl06$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl06_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl06$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl06_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl06$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl06_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl06$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl06_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">Friends</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl07$btnMenu3','')" id="repeater3_ctl07_btnMenu3"><h3 class="menuheader expandable" headerindex="7h"><span class="accordprefix"></span>Friends<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="7c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl07$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl07_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl07$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl07_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl07$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl07_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl07$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl07_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl07$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl07_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl07$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl07_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">FTLife</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl08$btnMenu3','')" id="repeater3_ctl08_btnMenu3"><h3 class="menuheader expandable" headerindex="8h"><span class="accordprefix"></span>FTLife<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="8c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl08$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl08_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl08$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl08_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl08$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl08_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl08$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl08_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl08$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl08_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl08$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl08_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">Fubon Life</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl09$btnMenu3','')" id="repeater3_ctl09_btnMenu3"><h3 class="menuheader expandable" headerindex="9h"><span class="accordprefix"></span>Fubon Life<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="9c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl09$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl09_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl09$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl09_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl09$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl09_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl09$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl09_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl09$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl09_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl09$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl09_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">FWD</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl10$btnMenu3','')" id="repeater3_ctl10_btnMenu3"><h3 class="menuheader expandable" headerindex="10h"><span class="accordprefix"></span>FWD<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="10c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl10$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl10_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl10$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl10_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl10$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl10_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl10$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl10_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl10$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl10_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl10$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl10_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">FWD Life</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl11$btnMenu3','')" id="repeater3_ctl11_btnMenu3"><h3 class="menuheader expandable" headerindex="11h"><span class="accordprefix"></span>FWD Life<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="11c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl11$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl11_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl11$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl11_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl11$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl11_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl11$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl11_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl11$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl11_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl11$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl11_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">Generali</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl12$btnMenu3','')" id="repeater3_ctl12_btnMenu3"><h3 class="menuheader expandable" headerindex="12h"><span class="accordprefix"></span>Generali<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="12c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl12$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl12_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl12$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl12_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl12$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl12_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl12$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl12_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl12$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl12_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl12$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl12_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">Heng An Standard Life</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl13$btnMenu3','')" id="repeater3_ctl13_btnMenu3"><h3 class="menuheader expandable" headerindex="13h"><span class="accordprefix"></span>Heng An Standard Life<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="13c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl13$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl13_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl13$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl13_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl13$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl13_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl13$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl13_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl13$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl13_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl13$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl13_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">Manulife</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl14$btnMenu3','')" id="repeater3_ctl14_btnMenu3"><h3 class="menuheader expandable" headerindex="14h"><span class="accordprefix"></span>Manulife<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="14c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl14$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl14_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl14$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl14_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl14$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl14_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl14$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl14_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl14$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl14_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl14$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl14_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">Pacific Life</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl15$btnMenu3','')" id="repeater3_ctl15_btnMenu3"><h3 class="menuheader expandable" headerindex="15h"><span class="accordprefix"></span>Pacific Life<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="15c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl15$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl15_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl15$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl15_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl15$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl15_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl15$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl15_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl15$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl15_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl15$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl15_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">Prudential</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl16$btnMenu3','')" id="repeater3_ctl16_btnMenu3"><h3 class="menuheader expandable" headerindex="16h"><span class="accordprefix"></span>Prudential<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="16c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl16$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl16_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl16$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl16_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl16$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl16_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl16$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl16_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl16$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl16_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl16$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl16_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">Quilter International</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl17$btnMenu3','')" id="repeater3_ctl17_btnMenu3"><h3 class="menuheader expandable" headerindex="17h"><span class="accordprefix"></span>Quilter International<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="17c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl17$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl17_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl17$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl17_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl17$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl17_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl17$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl17_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl17$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl17_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl17$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl17_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">Sun Life</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl18$btnMenu3','')" id="repeater3_ctl18_btnMenu3"><h3 class="menuheader expandable" headerindex="18h"><span class="accordprefix"></span>Sun Life<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="18c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl18$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl18_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl18$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl18_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl18$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl18_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl18$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl18_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl18$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl18_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl18$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl18_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">Tahoe</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl19$btnMenu3','')" id="repeater3_ctl19_btnMenu3"><h3 class="menuheader expandable" headerindex="19h"><span class="accordprefix"></span>Tahoe<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="19c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl19$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl19_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl19$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl19_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl19$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl19_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl19$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl19_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl19$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl19_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl19$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl19_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">Transamerica</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl20$btnMenu3','')" id="repeater3_ctl20_btnMenu3"><h3 class="menuheader expandable" headerindex="20h"><span class="accordprefix"></span>Transamerica<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="20c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl20$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl20_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl20$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl20_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl20$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl20_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl20$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl20_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl20$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl20_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl20$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl20_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">Utmost WorldWide</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl21$btnMenu3','')" id="repeater3_ctl21_btnMenu3"><h3 class="menuheader expandable" headerindex="21h"><span class="accordprefix"></span>Utmost WorldWide<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="21c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl21$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl21_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl21$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl21_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl21$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl21_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl21$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl21_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl21$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl21_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl21$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl21_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">YF Life</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl22$btnMenu3','')" id="repeater3_ctl22_btnMenu3"><h3 class="menuheader expandable" headerindex="22h"><span class="accordprefix"></span>YF Life<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="22c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl22$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl22_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl22$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl22_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl22$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl22_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl22$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl22_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl22$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl22_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl22$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl22_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">Zurich</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl23$btnMenu3','')" id="repeater3_ctl23_btnMenu3"><h3 class="menuheader expandable" headerindex="23h"><span class="accordprefix"></span>Zurich<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="23c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl23$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl23_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl23$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl23_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl23$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl23_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl23$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl23_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl23$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl23_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl23$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl23_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+<!--<a href="#"><h3 class="menuheader expandable">Zurich HK</h3></a>-->
+<a href="javascript:__doPostBack('repeater3$ctl24$btnMenu3','')" id="repeater3_ctl24_btnMenu3"><h3 class="menuheader expandable" headerindex="24h"><span class="accordprefix"></span>Zurich HK<span class="accordsuffix"></span></h3></a>
+<ul class="categoryitems" contentindex="24c" style="display: none;">
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl24$repeater4$ctl01$btnMenu4','')" id="repeater3_ctl24_repeater4_ctl01_btnMenu4">Basic Plan</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl24$repeater4$ctl02$btnMenu4','')" id="repeater3_ctl24_repeater4_ctl02_btnMenu4">Rider</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl24$repeater4$ctl03$btnMenu4','')" id="repeater3_ctl24_repeater4_ctl03_btnMenu4">Special Offers</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl24$repeater4$ctl04$btnMenu4','')" id="repeater3_ctl24_repeater4_ctl04_btnMenu4">Sales Aids</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl24$repeater4$ctl05$btnMenu4','')" id="repeater3_ctl24_repeater4_ctl05_btnMenu4">Presentation Slides</a>
+</li>
+<li>
+<a href="javascript:__doPostBack('repeater3$ctl24$repeater4$ctl06$btnMenu4','')" id="repeater3_ctl24_repeater4_ctl06_btnMenu4">Notices</a>
+</li>
+</ul>
+</div>
+<hr class="space"/>
+<!-- End Accordian Menu -->
+</div>
+<!-- END LEFT_NAV -->
+</div>
+<!-- END LEFT_COLUMN -->
+<div class="blue_top" id="center_right" style="padding-right: 7px;">
+<div class="bg_shadow1" id="center_column" style="background-position: right -15px;">
+<div class="wrapper" style="margin-right: 14px;">
+<div class="page_title3">
+<span id="lblPageTitle">Blue - Basic Plan</span>
+</div>
+</div>
+<div class="wrapper padding_r20">
+<!-- TAB MENU 3-->
+<div id="div-3">
+<div id="panel_product">
+	
+                                 
+                                 
+                                    PB: Product Brochure   
+                                    PP: Provisions   
+                                    PG: Product Guide   
+                                    PT: Premium Table   
+                                    IO: Investment Options   
+                                    PD: Presentation Deck   
+                                
+                                <hr style="height:3pt; visibility:hidden;"/>
+                                
+                                    KFS: Key Fact Statement   
+                                    EN: English        
+                                    TC: Traditional Chinese    
+                                    SC: Simplified Chinese    
+                                
+                                
+                                <br/> <br/>
+<ul class="tabs-nav">
+<li class="tabs-selected" style="width:65px"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#T-31"><span style="padding-left:1px;">ILAS</span></a></li>
+<li class="" style="width:65px"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#T-32"><span style="padding-left:0px;margin-right:0px">Life</span></a></li>
+<!--<li><a href="#T-33"><span>Term Life</span></a></li>-->
+<li class="" style="width:100px"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#T-34"><span>Critical Illness</span></a></li>
+<li class="" style="width:65px"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#T-36"><span style="padding-left:1px;">Medical</span></a></li>
+<li class="" style="width:65px"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#T-40"><span style="padding-left:1px;">Coupon</span></a></li>
+<li class="" style="width:85px"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#T-38"><span>Endowment</span></a></li>
+<li class="" style="width:80px"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#T-37"><span>Retirement</span></a></li>
+<li class="" style="width:80px"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#T-35"><span>Education</span></a></li>
+<li class="" style="width:135px"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#T-39"><span>Accident &amp; Disability</span></a></li>
+</ul>
+<div class="tabs-container" id="T-31">
+<div>
+<table border="0" class="review_perform" id="gv_product_1">
+<thead>
+<tr>
+<th scope="col">Plan Name</th><th scope="col">Product<br/>Brochure</th><th scope="col">Fund<br/>Brochure</th><th scope="col">Product<br/>Guide</th><th scope="col">Provisions</th><th scope="col">Remarks</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>LifeLink Insurance Plan 智豐盛投資保險計劃  (Shelved)</td><td>
+<span id="gv_product_1_ctl02_gvproduct_label1" style="display:inline-block;width:50px;"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/LifeLink_PB_0714.pdf" target="_blank">PB</a><br/><br/><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/LifeLink_KFS_0714.pdf" target="_blank">KFS</a><br/><br/></span>
+</td><td>
+<span id="gv_product_1_ctl02_gvproduct_label3" style="display:inline-block;width:50px;"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/LifeLink_IO_0714.pdf" target="_blank">IO</a><br/><br/></span>
+</td><td>
+<span id="gv_product_1_ctl02_gvproduct_label4" style="display:inline-block;width:50px;"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#" onclick="javascript: window.open('File/Product and Provider Information (ILAS + INS)/Blue/Basic Plan//Popup_Test.html')"></a><br/><br/></span>
+</td><td>
+<span id="gv_product_1_ctl02_gvproduct_label5" style="display:inline-block;width:50px;"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/LifeLink_%20PP_.pdf" target="_blank"> PP</a><br/><br/></span>
+</td><td>Shelved on 31 Dec 2014 (BPD Cutoff: 29 Dec 2014 (Mon) at 12:00noon)</td>
+</tr><tr class="even">
+<td>Global Investment Account 環球投資戶口  (Shelved)</td><td>
+<span id="gv_product_1_ctl03_gvproduct_label1" style="display:inline-block;width:50px;"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/Global%20Investment%20Account_PB_0913.pdf" target="_blank">PB</a><br/><br/><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/Global%20Investment%20Account_KFS_0714.pdf" target="_blank">KFS</a><br/><br/><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/Global%20Investment%20Account_Supplementar%20Benefits_0714.pdf" target="_blank">Supplementar Benefits</a><br/><br/></span>
+</td><td>
+<span id="gv_product_1_ctl03_gvproduct_label3" style="display:inline-block;width:50px;"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/Global%20Investment%20Account_IO_1014.pdf" target="_blank">IO</a><br/><br/></span>
+</td><td>
+<span id="gv_product_1_ctl03_gvproduct_label4" style="display:inline-block;width:50px;"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#" onclick="javascript: window.open('File/Product and Provider Information (ILAS + INS)/Blue/Basic Plan//Popup_Test.html')"></a><br/><br/></span>
+</td><td>
+<span id="gv_product_1_ctl03_gvproduct_label5" style="display:inline-block;width:50px;"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/Global%20Investment%20Account_%20PP_.pdf" target="_blank"> PP</a><br/><br/></span>
+</td><td>Shelved on 31 Dec 2014 (BPD Cutoff: 29 Dec 2014 (Mon) at 12:00noon)</td>
+</tr><tr>
+<td>Global Savings Account 環球儲蓄戶口 (shelved)</td><td>
+<span id="gv_product_1_ctl04_gvproduct_label1" style="display:inline-block;width:50px;"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/Global%20Savings%20Account%20_PB_%202014.pdf" target="_blank">PB</a><br/><br/><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/Global%20Savings%20Account_KFS_0913.pdf" target="_blank">KFS</a><br/><br/></span>
+</td><td>
+<span id="gv_product_1_ctl04_gvproduct_label3" style="display:inline-block;width:50px;"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/Global%20Savings%20Account%20_IO_1014.pdf" target="_blank">IO</a><br/><br/></span>
+</td><td>
+<span id="gv_product_1_ctl04_gvproduct_label4" style="display:inline-block;width:50px;"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#" onclick="javascript: window.open('File/Product and Provider Information (ILAS + INS)/Blue/Basic Plan//Popup_Test.html')"></a><br/><br/></span>
+</td><td>
+<span id="gv_product_1_ctl04_gvproduct_label5" style="display:inline-block;width:50px;"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/Global%20Savings%20Account_PP_.pdf" target="_blank">PP</a><br/><br/></span>
+</td><td>Shelved on 15 Jul 2014 (BPD Cutoff: 11 Jul 2014 (Fri) at 12:00noon)</td>
+</tr><tr class="even">
+<td>Global Savings Account (obsolete)</td><td>
+<span id="gv_product_1_ctl05_gvproduct_label1" style="display:inline-block;width:50px;"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/Global%20Savings%20Account%20(obsolete%20on%20Aug%202007)_PB_1004.pdf" target="_blank">PB</a><br/><br/></span>
+</td><td>
+<span id="gv_product_1_ctl05_gvproduct_label3" style="display:inline-block;width:50px;"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#" onclick="javascript: window.open('File/Product and Provider Information (ILAS + INS)/Blue/Basic Plan//Popup_Test.html')"></a><br/><br/></span>
+</td><td>
+<span id="gv_product_1_ctl05_gvproduct_label4" style="display:inline-block;width:50px;"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#" onclick="javascript: window.open('File/Product and Provider Information (ILAS + INS)/Blue/Basic Plan//Popup_Test.html')"></a><br/><br/></span>
+</td><td>
+<span id="gv_product_1_ctl05_gvproduct_label5" style="display:inline-block;width:50px;"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#" onclick="javascript: window.open('File/Product and Provider Information (ILAS + INS)/Blue/Basic Plan//Popup_Test.html')"></a><br/><br/></span>
+</td><td>obsolete on Aug 2007</td>
+</tr><tr>
+<td>Global Savings Account (obsolete)</td><td>
+<span id="gv_product_1_ctl06_gvproduct_label1" style="display:inline-block;width:50px;"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/Global%20Savings%20Account%20(obsolete%20on%20Jan%202010)_PB_.pdf" target="_blank">PB</a><br/><br/></span>
+</td><td>
+<span id="gv_product_1_ctl06_gvproduct_label3" style="display:inline-block;width:50px;"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#" onclick="javascript: window.open('File/Product and Provider Information (ILAS + INS)/Blue/Basic Plan//Popup_Test.html')"></a><br/><br/></span>
+</td><td>
+<span id="gv_product_1_ctl06_gvproduct_label4" style="display:inline-block;width:50px;"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#" onclick="javascript: window.open('File/Product and Provider Information (ILAS + INS)/Blue/Basic Plan//Popup_Test.html')"></a><br/><br/></span>
+</td><td>
+<span id="gv_product_1_ctl06_gvproduct_label5" style="display:inline-block;width:50px;"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#" onclick="javascript: window.open('File/Product and Provider Information (ILAS + INS)/Blue/Basic Plan//Popup_Test.html')"></a><br/><br/></span>
+</td><td>obsolete on Jan 2010)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="tabs-container tabs-hide" id="T-32">
+<a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#" id="A51"><span>Whole Life</span></a> | <a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#" id="A52"><span>Term Life</span></a> | <a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#" id="A53"><span>Universal Life</span></a>
+<div id="D51">
+</div>
+<div id="D52" style="display:none">
+<div>
+<table border="0" class="review_perform" id="gv_product_3">
+<thead>
+<tr>
+<th scope="col">Plan Name</th><th scope="col">Product<br/>Brochure</th><th scope="col">Product<br/>Guide</th><th scope="col">Provisions</th><th scope="col">Remarks</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Mortgage Reducing Term Assurance Plan 樂安居按揭保障計劃 (Shelved)</td><td>
+<span id="gv_product_3_ctl02_gvproduct_label1" style="display:inline-block;width:100px;"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/Mortgage%20Reducing%20Term%20Assurance_PB_0910.pdf" target="_blank">PB</a><br/><br/></span>
+</td><td>
+<span id="gv_product_3_ctl02_gvproduct_label4" style="display:inline-block;width:100px;"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/Mortgage%20Reducing%20Term%20Assurance_PG_0810.pdf" target="_blank">PG</a><br/><br/></span>
+</td><td>
+<span id="gv_product_3_ctl02_gvproduct_label5" style="display:inline-block;width:100px;"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/Mortgage%20Reducing%20Term%20Assurance_PP_0810.pdf" target="_blank">PP</a><br/><br/></span>
+</td><td> </td>
+</tr><tr class="even">
+<td>WellProtector RMB Refundable Term Life 惠裕人民幣保費回贈定期人壽保障計劃 | (Obsoleted)</td><td>
+<span id="gv_product_3_ctl03_gvproduct_label1" style="display:inline-block;width:100px;"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/WellProtector%20RMB%20Refundable%20Term%20Life_PB%20EN_0713.pdf" target="_blank">PB EN</a><br/><br/><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/WellProtector%20RMB%20Refundable%20Term%20Life_PB%20TC_0713.pdf" target="_blank">PB TC</a><br/><br/></span>
+</td><td>
+<span id="gv_product_3_ctl03_gvproduct_label4" style="display:inline-block;width:100px;"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/WellProtector%20RMB%20Refundable%20Term%20Life_PG_.pdf" target="_blank">PG</a><br/><br/></span>
+</td><td>
+<span id="gv_product_3_ctl03_gvproduct_label5" style="display:inline-block;width:100px;"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/WellProtector%20RMB%20Refundable%20Term%20Life%20Plan_PP_.pdf" target="_blank">PP</a><br/><br/></span>
+</td><td>Shelved</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="D53" style="display:none">
+</div>
+</div>
+<div class="tabs-container tabs-hide" id="T-34">
+<div>
+<table border="0" class="review_perform" id="gv_product_4">
+<thead>
+<tr>
+<th scope="col">Plan Name</th><th scope="col">Product<br/>Brochure</th><th scope="col">Product<br/>Guide</th><th scope="col">Provisions</th><th scope="col">Remarks</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>LifeReward Insurance Plan 智賞人生儲蓄保障計劃 (Shelved)</td><td>
+<span id="gv_product_4_ctl02_gvproduct_label1" style="display:inline-block;width:100px;"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/LifeReward_PB_0212.pdf" target="_blank">PB</a><br/><br/></span>
+</td><td>
+<span id="gv_product_4_ctl02_gvproduct_label4" style="display:inline-block;width:100px;"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/LifeReward_PD_.pdf" target="_blank">PD</a><br/><br/></span>
+</td><td>
+<span id="gv_product_4_ctl02_gvproduct_label5" style="display:inline-block;width:100px;"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/LifeReward_PP%20EN_0212.pdf" target="_blank">PP EN</a><br/><br/><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/LifeReward_PP%20TC_0212.pdf" target="_blank">PP TC</a><br/><br/></span>
+</td><td>Shelved on 6 Jun 2015</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="tabs-container tabs-hide" id="T-35">
+</div>
+<div class="tabs-container tabs-hide" id="T-36">
+</div>
+<div class="tabs-container tabs-hide" id="T-37">
+<div>
+<table border="0" class="review_perform" id="gv_product_7">
+<thead>
+<tr>
+<th scope="col">Plan Name</th><th scope="col">Product<br/>Brochure</th><th scope="col">Product<br/>Guide</th><th scope="col">Provisions</th><th scope="col">Remarks</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>SmartRich Income Insurance Plan 智昇入息保障計劃 (Shelved)</td><td>
+<span id="gv_product_7_ctl02_gvproduct_label1"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/SmartRich%20Income_PB%20EN_1014.pdf" target="_blank">PB EN</a><br/><br/><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/SmartRich%20Income_PB%20TC_1014.pdf" target="_blank">PB TC</a><br/><br/></span>
+</td><td>
+<span id="gv_product_7_ctl02_gvproduct_label4"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#" onclick="javascript: window.open('File/Product and Provider Information (ILAS + INS)/Blue/Basic Plan//Popup_Test.html')"></a><br/><br/></span>
+</td><td>
+<span id="gv_product_7_ctl02_gvproduct_label5"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/SmartRich%20Income_PP_1014.pdf" target="_blank">PP</a><br/><br/></span>
+</td><td>Shelved on 21  Mar, 2017</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="tabs-container tabs-hide" id="T-38">
+<div>
+<table border="0" class="review_perform" id="gv_product_8">
+<thead>
+<tr>
+<th scope="col">Plan Name</th><th scope="col">Product<br/>Brochure</th><th scope="col">Product<br/>Guide</th><th scope="col">Provisions</th><th scope="col">Remarks</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>MyWealth Prime Savings Insurance Plan 豐穗優越儲蓄保險計劃 (Shelved)</td><td>
+<span id="gv_product_8_ctl02_gvproduct_label1"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/MyWealth%20Prime%20Savings_PB_0515.pdf" target="_blank">PB</a><br/><br/></span>
+</td><td>
+<span id="gv_product_8_ctl02_gvproduct_label4"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/MyWealth%20Prime%20Savings_PD_0715.pdf" target="_blank">PD</a><br/><br/></span>
+</td><td>
+<span id="gv_product_8_ctl02_gvproduct_label5"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#" onclick="javascript: window.open('File/Product and Provider Information (ILAS + INS)/Blue/Basic Plan//Popup_Test.html')"></a><br/><br/></span>
+</td><td>Shelved on 21  Mar, 2017</td>
+</tr><tr class="even">
+<td>WealthGrower RMB Insurance Plan III 智盈人民幣儲蓄保障計劃 III (Limited Offer) (closed) </td><td>
+<span id="gv_product_8_ctl03_gvproduct_label1"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/WealthGrower%20RMB%203_PB_.pdf" target="_blank">PB</a><br/><br/></span>
+</td><td>
+<span id="gv_product_8_ctl03_gvproduct_label4"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#" onclick="javascript: window.open('File/Product and Provider Information (ILAS + INS)/Blue/Basic Plan//Popup_Test.html')"></a><br/><br/></span>
+</td><td>
+<span id="gv_product_8_ctl03_gvproduct_label5"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/WealthGrower%20RMB%203_PP%20EN_0714.pdf" target="_blank">PP EN</a><br/><br/><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/WealthGrower%20RMB%203_PP%20TC_0714.pdf" target="_blank">PP TC</a><br/><br/></span>
+</td><td>closed on Aug 31st, 2015 (BPD cut-off 12:00pm, Aug 26th, 2015))</td>
+</tr><tr>
+<td>WealthGrower RMB Insurance Plan II 智盈人民幣儲蓄保障計劃 II (obsolete)</td><td>
+<span id="gv_product_8_ctl04_gvproduct_label1"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/WealthGrower%20RMB%202_PB%20EN_0512.pdf" target="_blank">PB EN</a><br/><br/><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/WealthGrower%20RMB%202_PB%20TC_0512.pdf" target="_blank">PB TC</a><br/><br/></span>
+</td><td>
+<span id="gv_product_8_ctl04_gvproduct_label4"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#" onclick="javascript: window.open('File/Product and Provider Information (ILAS + INS)/Blue/Basic Plan//Popup_Test.html')"></a><br/><br/></span>
+</td><td>
+<span id="gv_product_8_ctl04_gvproduct_label5"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#" onclick="javascript: window.open('File/Product and Provider Information (ILAS + INS)/Blue/Basic Plan//Popup_Test.html')"></a><br/><br/></span>
+</td><td>obsolete from 27 Feb, 2013</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="tabs-container tabs-hide" id="T-39">
+</div>
+<div class="tabs-container tabs-hide" id="T-40">
+<div>
+<table border="0" class="review_perform" id="gv_product_11">
+<thead>
+<tr>
+<th scope="col">Plan Name</th><th scope="col">Product<br/>Brochure</th><th scope="col">Product<br/>Guide</th><th scope="col">Provisions</th><th scope="col">Remarks</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Enricher 2 Savings Insurance Plan 凱裕2儲蓄保障計劃(Shelved)</td><td>
+<span id="gv_product_11_ctl02_gvproduct_label1"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/Enricher%202%20Savings_PB%20EN_1216.pdf" target="_blank">PB EN</a><br/><br/><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/Enricher%202%20Savings_PB%20TC_1216.pdf" target="_blank">PB TC</a><br/><br/></span>
+</td><td>
+<span id="gv_product_11_ctl02_gvproduct_label4"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#" onclick="javascript: window.open('File/Product and Provider Information (ILAS + INS)/Blue/Basic Plan//Popup_Test.html')"></a><br/><br/></span>
+</td><td>
+<span id="gv_product_11_ctl02_gvproduct_label5"><a href="http://prdlib.convoy.com.hk/prdportal/Default.aspx?menuid=11#" onclick="javascript: window.open('File/Product and Provider Information (ILAS + INS)/Blue/Basic Plan//Popup_Test.html')"></a><br/><br/></span>
+</td><td>Shelved on 21  Mar, 2017</td>
+</tr><tr class="even">
+<td>Enricher Savings Insurance Plan 凱裕儲蓄保障計劃 (shelved)</td><td>
+<span id="gv_product_11_ctl03_gvproduct_label1"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/Enricher%20Savings_PB_0213.pdf" target="_blank">PB</a><br/><br/></span>
+</td><td>
+<span id="gv_product_11_ctl03_gvproduct_label4"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/Enricher%20Savings_PD_0213.pdf" target="_blank">PD</a><br/><br/></span>
+</td><td>
+<span id="gv_product_11_ctl03_gvproduct_label5"><a href="http://prdlib.convoy.com.hk/prdportal/File/Product%20and%20Provider%20Information%20(ILAS%20+%20INS)/Blue/Basic%20Plan/Enricher%20Savings_PP_0213.pdf" target="_blank">PP</a><br/><br/></span>
+</td><td>shelved on Dec 28th, 2016</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<!-- Panel Rider start here -->
+<!-- Panel Rider end here -->
+<!-- Fund Information start -->
+<!-- Fund Information end -->
+<!-- Fund Fact Sheet and Prospectus start -->
+<!-- Fund Fact Sheet and Prospectus end -->
+<!-- General Insurance start -->
+<!-- General Insurance end -->
+<!-- GI presentation start -->
+<!-- GI presentation end -->
+<!-- GI others start -->
+<!-- GI others end -->
+<!-- END TAB MENU 3-->
+</div>
+<!-- END WRAPPER -->
+<hr class="clear"/>
+</div>
+<!-- END CENTER COLUMN -->
+<hr class="clear"/>
+</div>
+<!-- END center_right -->
+<hr class="clear"/>
+</div>
+<!-- END CONTENT -->
+</div>
+<!-- END CONTAINER -->
+<!--
+        <div id="footer">
+        	<div class="wrapper">
+        		<div class="left">
+                	&copy; Convoy Financial Group
+                    <span> | </span>
+                   
+      			</div>
+                <div class="right">
+                
+              	  </div>
+                  <hr class="space">
+                  <p class="disclaimer">Disclaimer: Investments are not guaranteed for profits, and might lose value. The information herewith is made available for reference only and is not intended for trading or other purposes.<br>Should you have any question, please contact your consultant in Convoy or Convoy's hotline (852) 3601 3602. </p>
+             </div>
+  </div>
+  -->
+<!-- END FOOTER -->
+</div>
+</form>
+</body></html>
